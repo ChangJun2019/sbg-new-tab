@@ -1,0 +1,15 @@
+{
+  "name": "sbg-new-tab",
+  "version": "0.0.1",
+  "description": "simple, new tab that supports setting background images",
+  "scripts": {
+    "dev": "unocss --watch",
+    "build": "unocss --minify"
+  },
+  "author": "Chang Jun",
+  "license": "MIT",
+  "devDependencies": {
+    "@unocss/cli": "^0.56.5",
+    "unocss": "^0.56.5"
+  }
+}
