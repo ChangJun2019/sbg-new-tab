@@ -1,7 +1,7 @@
 {
   "name": "start-new-tab",
   "type": "module",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "packageManager": "pnpm@8.8.0",
   "description": "A clean, simple, new tab browser extension that supports local image backgrounds",
   "author": {
