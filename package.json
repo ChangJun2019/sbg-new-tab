@@ -1,5 +1,5 @@
 {
-  "name": "sbg-new-tab",
+  "name": "start-new-tab",
   "type": "module",
   "version": "0.0.1",
   "packageManager": "pnpm@8.8.0",
