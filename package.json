@@ -1,15 +1,33 @@
 {
   "name": "sbg-new-tab",
+  "type": "module",
   "version": "0.0.1",
+  "packageManager": "pnpm@8.8.0",
   "description": "A clean, simple, new tab browser extension that supports local image backgrounds",
+  "author": {
+    "name": "Chang Jun",
+    "email": "52chinaweb@gmail.com",
+    "url": "https://52chinaweb.com/"
+  },
+  "license": "MIT",
+  "keywords": [
+    "newtab",
+    "chrome",
+    "extension"
+  ],
   "scripts": {
     "dev": "unocss --watch",
-    "build": "unocss --minify"
+    "build": "unocss --minify",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "upgrade": "npx taze major -w",
+    "release": "bumpp --commit --tag --push"
   },
-  "author": "Chang Jun",
-  "license": "MIT",
   "devDependencies": {
+    "@antfu/eslint-config": "1.0.0-beta.21",
     "@unocss/cli": "^0.56.5",
+    "bumpp": "^9.2.0",
+    "eslint": "^8.50.0",
     "unocss": "^0.56.5"
   }
 }
