@@ -1,7 +1,7 @@
 {
   "name": "sbg-new-tab",
   "version": "0.0.1",
-  "description": "simple, new tab that supports setting background images",
+  "description": "A clean, simple, new tab browser extension that supports local image backgrounds",
   "scripts": {
     "dev": "unocss --watch",
     "build": "unocss --minify"

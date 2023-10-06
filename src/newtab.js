@@ -10,6 +10,7 @@ getImg().then((result) => {
 
 async function uploadImgChange(e){
   try {
+    if(e.target.files.length === 0) return;
     const file = e.target.files[0];
     const img = await convertBase64(file);
     await setImg(img)
