@@ -1,5 +1,5 @@
-const SBG_DB_NAME = 'start-db'
-const SBG_DB_NAME_TABLE = 'bg'
+const DB_NAME = 'start-db'
+const DB_NAME_TABLE = 'bg'
 let db = null
 init()
 
@@ -13,7 +13,7 @@ async function init() {
 }
 
 function initStore() {
-  const request = window.indexedDB.open(SBG_DB_NAME, 1)
+  const request = window.indexedDB.open(DB_NAME, 1)
 
   return new Promise((resolve, reject) => {
     request.onerror = function (event) {
@@ -27,15 +27,15 @@ function initStore() {
 
     request.onupgradeneeded = function (event) {
       db = event.target.result
-      if (!db.objectStoreNames.contains(SBG_DB_NAME_TABLE))
-        db.createObjectStore(SBG_DB_NAME_TABLE, { autoIncrement: true })
+      if (!db.objectStoreNames.contains(DB_NAME_TABLE))
+        db.createObjectStore(DB_NAME_TABLE, { autoIncrement: true })
     }
   })
 }
 
 function setImg(file) {
-  const r = db.transaction([SBG_DB_NAME_TABLE], 'readwrite')
-    .objectStore(SBG_DB_NAME_TABLE)
+  const r = db.transaction([DB_NAME_TABLE], 'readwrite')
+    .objectStore(DB_NAME_TABLE)
     .put(file, 1)
 
   return new Promise((resolve, reject) => {
@@ -50,8 +50,8 @@ function setImg(file) {
 }
 
 function getImg() {
-  const r = db.transaction([SBG_DB_NAME_TABLE], 'readwrite')
-    .objectStore(SBG_DB_NAME_TABLE)
+  const r = db.transaction([DB_NAME_TABLE], 'readwrite')
+    .objectStore(DB_NAME_TABLE)
     .get(1)
 
   return new Promise((resolve, reject) => {
