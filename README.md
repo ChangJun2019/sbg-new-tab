@@ -9,7 +9,8 @@
 
 ## Screenshots
 
-<img width="2032" alt="image" src="https://github.com/ChangJun2019/sbg-new-tab/assets/32004895/b3cbff28-57f0-4684-96bf-d133e3217fad">
+![Start New Tab](https://github.com/ChangJun2019/sbg-new-tab/assets/32004895/ad7dfbf5-fec2-4e92-8506-cf4576b7a775)
+
 
 
 ## Why
