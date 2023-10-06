@@ -18,7 +18,7 @@
   ],
   "scripts": {
     "dev": "unocss --watch",
-    "build": "unocss --minify",
+    "build": "unocss --minify && esno ./scripts/build",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "upgrade": "npx taze major -w",
@@ -28,7 +28,13 @@
     "@antfu/eslint-config": "1.0.0-beta.21",
     "@unocss/cli": "^0.56.5",
     "bumpp": "^9.2.0",
+    "compressing": "^1.10.0",
+    "consola": "^3.2.3",
     "eslint": "^8.50.0",
+    "esno": "^0.17.0",
+    "mkdirp": "^3.0.1",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.2.2",
     "unocss": "^0.56.5"
   }
 }
