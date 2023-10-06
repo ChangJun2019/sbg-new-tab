@@ -9,11 +9,14 @@
 
 ## Screenshots
 
+<img width="2032" alt="image" src="https://github.com/ChangJun2019/sbg-new-tab/assets/32004895/b3cbff28-57f0-4684-96bf-d133e3217fad">
+
+
 ## Why
 
-In chrome's default browser new tab page, there are a lot of elements that I don't really want (search box, avatar...) .
+In Chrome's default browser new tab page, there are many elements I don't really want (search box, avatar...).
 
-I want the new tab page to be clean, fast and can set a favorite image as wallpaper.
+I want the new tab page to be clean, and fast and can set a favorite image as wallpaper.
 
 ## Thanks
 
