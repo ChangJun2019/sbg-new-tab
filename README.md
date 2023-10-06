@@ -1,6 +1,11 @@
 <h1 align="center">Start - A Clean New Tab</h1>
 
 <p align="center">A clean, simple, new tab browser extension that supports local image backgrounds</p>
+<p align="center">
+  <a href="https://github.com/ChangJun2019/start-new-tab/releases/download/v0.0.3/StartNewTab.zip" alt="downloads extension">
+    <img src="https://img.shields.io/badge/start-new-tab-downloads-00dd83" alt="downloads extension"></img>
+  </a>
+</p>
 
 ## Features
 
