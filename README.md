@@ -11,8 +11,6 @@
 
 ![Start New Tab](https://github.com/ChangJun2019/sbg-new-tab/assets/32004895/ad7dfbf5-fec2-4e92-8506-cf4576b7a775)
 
-
-
 ## Why
 
 In Chrome's default browser new tab page, there are many elements I don't really want (search box, avatar...).
