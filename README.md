@@ -14,7 +14,7 @@
 
 ## Screenshots
 
-![Start New Tab](https://github.com/ChangJun2019/sbg-new-tab/assets/32004895/ad7dfbf5-fec2-4e92-8506-cf4576b7a775)
+![Start New Tab](https://chrome.google.com/webstore/detail/start-a-clean-new-tab/dlofaadadkacecikehaefpgdahbgdmen)
 
 ## Why
 
