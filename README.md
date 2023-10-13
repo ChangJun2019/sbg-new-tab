@@ -2,7 +2,7 @@
 
 <p align="center">A clean, simple, new tab browser extension that supports local image backgrounds</p>
 <p align="center">
-  <a href="https://github.com/ChangJun2019/start-new-tab/releases/download/v0.0.3/StartNewTab.zip" alt="downloads extension">
+  <a href="https://chrome.google.com/webstore/detail/dlofaadadkacecikehaefpgdahbgdmen" alt="downloads extension">
     <img src="https://img.shields.io/badge/downloads-00dd83" alt="downloads extension"></img>
   </a>
 </p>
@@ -14,7 +14,7 @@
 
 ## Screenshots
 
-![Start New Tab](https://chrome.google.com/webstore/detail/start-a-clean-new-tab/dlofaadadkacecikehaefpgdahbgdmen)
+![Start New Tab](https://github.com/ChangJun2019/sbg-new-tab/assets/32004895/ad7dfbf5-fec2-4e92-8506-cf4576b7a775)
 
 ## Why
 
